@@ -1,11 +1,14 @@
 {
-    "scripts": {
-        "dev": "http-server -a localhost"
-    },
-    "devDependencies": {
-        "tailwindcss": "^3.3.2"
-    },
-    "dependencies": {
-        "http-server": "^14.1.1"
-    }
+  "name": "joeyeyey-github-io",
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "astro": "^5.12.9"
+  }
 }
